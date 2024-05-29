@@ -1,0 +1,103 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "category": "HTML",
+            "title": "Understanding the Basics of HTML",
+            "author": "John Doe",
+            "date": "2023-05-01",
+            "description": "This article covers the fundamental concepts of HTML and its role in web development.",
+            "image_url": "https://img.freepik.com/free-photo/html-css-collage-concept_23-2150061955.jpg?t=st=1716988964~exp=1716992564~hmac=36b42e6ecd400337098634d43ff593238201b6ff380573e99769422730820a4e&w=900"
+        },
+        {
+            "id": 2,
+            "category": "CSS",
+            "title": "CSS Flexbox Guide",
+            "author": "Jane Smith",
+            "date": "2023-05-05",
+            "description": "Learn how to use CSS Flexbox to create flexible and responsive layouts.",
+            "image_url": "https://img.freepik.com/free-vector/digital-code-abstract-3d-polygonal-wireframe-airplane-blue-night-sky-with-dots-stars-illustration-background_587448-634.jpg"
+        },
+        {
+            "id": 3,
+            "category": "JavaScript",
+            "title": "Introduction to JavaScript ES6",
+            "author": "Mike Johnson",
+            "date": "2023-05-10",
+            "description": "An overview of the new features introduced in JavaScript ES6.",
+            "image_url": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010130.jpg?t=st=1716989485~exp=1716993085~hmac=cfbee1aaaf67d375793722da3c735a40f329fc94f98f68eca66d18ed0bc78184&w=900"
+        },
+        {
+            "id": 4,
+            "category": "Machine Learning",
+            "title": "Machine Learning for Beginners",
+            "author": "Emily Davis",
+            "date": "2023-05-15",
+            "description": "A beginner's guide to understanding the basics of Machine Learning.",
+            "image_url": "https://img.freepik.com/free-photo/ai-cloud-concept-with-robot-arm_23-2149739748.jpg?t=st=1716989295~exp=1716992895~hmac=9321751a40f9dae3f4b65674e8c3b894d4328d4edf579f08a67f10314ed200f2&w=826"
+        },
+        {
+            "id": 5,
+            "category": "HTML",
+            "title": "Semantic HTML: Best Practices",
+            "author": "Chris Martin",
+            "date": "2023-05-20",
+            "description": "Learn the importance of semantic HTML and how to implement it effectively.",
+            "image_url": "https://www.example.com/images/semantic_html.jpg"
+        },
+        {
+            "id": 6,
+            "category": "CSS",
+            "title": "Advanced CSS Grid Layouts",
+            "author": "Linda Green",
+            "date": "2023-05-25",
+            "description": "Explore advanced techniques for creating complex layouts with CSS Grid.",
+            "image_url": "https://www.example.com/images/css_grid.jpg"
+        },
+        {
+            "id": 7,
+            "category": "JavaScript",
+            "title": "Asynchronous JavaScript: Promises and Async/Await",
+            "author": "Robert Brown",
+            "date": "2023-05-30",
+            "description": "Understand asynchronous JavaScript and how to use Promises and Async/Await.",
+            "image_url": "https://www.example.com/images/async_js.jpg"
+        },
+        {
+            "id": 8,
+            "category": "Machine Learning",
+            "title": "Supervised vs Unsupervised Learning",
+            "author": "Sophia Lee",
+            "date": "2023-06-01",
+            "description": "Learn the difference between supervised and unsupervised learning in machine learning.",
+            "image_url": "https://www.example.com/images/supervised_unsupervised.jpg"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "HTML",
+            "description": "HTML (Hypertext Markup Language) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript."
+        },
+        {
+            "id": 2,
+            "name": "CSS",
+            "description": "CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML. It controls the layout, colors, and fonts of multiple web pages all at once."
+        },
+        {
+            "id": 3,
+            "name": "JavaScript",
+            "description": "JavaScript is a programming language that enables you to create dynamically updating content, control multimedia, animate images, and much more. It is the language of the web and is used to make web pages interactive."
+        },
+        {
+            "id": 4,
+            "name": "React",
+            "description": "React is a JavaScript library for building user interfaces, often used for building single-page applications. It allows developers to create reusable UI components and efficiently manage the state of their applications."
+        },
+        {
+            "id": 5,
+            "name": "Machine Learning",
+            "description": "Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. It focuses on the development of computer programs that can access data and use it to learn for themselves."
+        }
+    ]
+}
