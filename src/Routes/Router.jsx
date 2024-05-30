@@ -18,7 +18,8 @@ export const Router = createBrowserRouter([
         children: [
             {
                 path: "/",
-                element: <Home />
+                element: <Home />,
+                loader: () => fetch('http://localhost:3000/blogs'),
             },
             {
                 path: "about",
@@ -45,9 +46,10 @@ export const Router = createBrowserRouter([
             {
                 index: true,
                 element: <Dashboard />,
+                loader: () => fetch('http://localhost:3000/blogs')
               },
               {
-                path: "manage-all-blogs",
+                path: "manage-blogs",
                 element: <ManageAllBlogs/>,
               },
               {
@@ -57,6 +59,7 @@ export const Router = createBrowserRouter([
               {
                 path: "edit-blog/:id",
                 element: <EditBlog />,
+                loader: ({ params }) => fetch(`http://localhost:3000/blogs/${params.id}`),
               },
         ]
     }
