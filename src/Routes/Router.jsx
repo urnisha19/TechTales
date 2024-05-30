@@ -10,6 +10,7 @@ import Dashboard from "../Pages/Dashboard";
 import ManageAllBlogs from "../Components/Dashboard/ManageAllBlogs";
 import AddBlog from "../Components/Dashboard/AddBlog";
 import EditBlog from "../Components/Dashboard/EditBlog";
+import SingleBlogDetails from "../Pages/SingleBlogDetails";
 
 export const Router = createBrowserRouter([
     {
@@ -20,6 +21,11 @@ export const Router = createBrowserRouter([
                 path: "/",
                 element: <Home />,
                 loader: () => fetch('http://localhost:3000/blogs'),
+            },
+            {
+                path: "/blogs/:id", //ekane single product details dekar jonno product id different differnt hobe tai id age : symbol use kora hoyeche
+                element: <SingleBlogDetails />,
+                loader: ({ params }) => fetch(`http://localhost:3000/blogs/${params.id}`),
             },
             {
                 path: "about",
