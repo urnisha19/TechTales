@@ -1,15 +1,13 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyB0gsCKI9xyklFWpXPrL3fVUjQdpt-Rkh8",
-    authDomain: "techtales-df535.firebaseapp.com",
-    projectId: "techtales-df535",
-    storageBucket: "techtales-df535.appspot.com",
-    messagingSenderId: "46189406879",
-    appId: "1:46189406879:web:ee03bf1353c8e2991e50aa"
+  apiKey: import.meta.env.VITE_SECURE_apiKey,
+  authDomain: import.meta.env.VITE_SECURE_authDomain,
+  projectId: import.meta.env.VITE_SECURE_projectId,
+  storageBucket: import.meta.env.VITE_SECURE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_SECURE_messagingSenderId,
+  appId: import.meta.env.VITE_SECURE_appId
 };
 
 const firebaseApp = initializeApp(firebaseConfig);

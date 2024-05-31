@@ -23,10 +23,10 @@ const ProfileCard = () => {
                         src={user?.photoURL}
                         alt="Profile Picture"
                     />
-                    <h5 className="mb-1 text-4xl text-sky-700 font-bold font-outline-2">
+                    <h5 className="mb-1 text-4xl text-sky-700 text-center font-bold font-outline-2">
                         {user?.displayName}
                     </h5>
-                    <span className="text-sm  font-bold text-sky-500">
+                    <span className="text-sm text-center font-bold text-sky-500">
                         {user?.email}
                     </span>
                 </div>
